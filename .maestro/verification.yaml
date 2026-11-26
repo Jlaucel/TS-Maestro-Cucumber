@@ -1,0 +1,13 @@
+appId: com.jlaucel.maestrofixture
+name: Verificación de código
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    id: com.jlaucel.maestrofixture:id/qa_pin
+- inputText: ${PIN}
+- hideKeyboard
+- tapOn:
+    id: com.jlaucel.maestrofixture:id/qa_submit
+- assertVisible:
+    id: com.jlaucel.maestrofixture:id/${EXPECTED_ID}

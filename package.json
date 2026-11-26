@@ -1,0 +1,27 @@
+{
+  "name": "ts-maestro-cucumber",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "cucumber-js --config cucumber.mjs",
+    "dry-run": "cucumber-js --config cucumber.mjs --dry-run --format summary",
+    "typecheck": "tsc --noEmit",
+    "report": "allure serve allure-results",
+    "qa:check": "node scripts/qa/check.mjs",
+    "qa:triage": "node scripts/qa/triage.mjs"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "13.3.0",
+    "@cucumber/gherkin": "42.0.1",
+    "@cucumber/messages": "34.2.1",
+    "@types/node": "24",
+    "allure-commandline": "2.38.1",
+    "allure-cucumberjs": "3.15.0",
+    "typescript": "6.0.3",
+    "yaml": "2.9.1"
+  }
+}

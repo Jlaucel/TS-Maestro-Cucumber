@@ -1,0 +1,6 @@
+<resources>
+    <item name="qa_pin" type="id" />
+    <item name="qa_submit" type="id" />
+    <item name="qa_accepted" type="id" />
+    <item name="qa_rejected" type="id" />
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="heading">Verificación de código</string>
+    <string name="pin_hint">Código de prueba</string>
+    <string name="submit">Verificar</string>
+    <string name="accepted">Código aceptado</string>
+    <string name="rejected">Código rechazado</string>
+</resources>
