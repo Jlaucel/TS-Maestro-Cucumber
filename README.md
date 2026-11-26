@@ -33,3 +33,7 @@ npm run dry-run
 ```
 
 Para inspeccionar la app y ejecutar flujos con un agente local, la [guía de pruebas](docs/qa.md) explica la configuración de Maestro MCP, las skills de Codex, los hooks y las prácticas ISTQB de diseño y diagnóstico.
+
+## Conexiones con herramientas de QA
+
+La [guía de conexiones](docs/integraciones-qa.md) explica cómo configurar Figma, Jira, Zephyr y Slack desde tu cliente de IA y cómo usar la skill de QA del repositorio para relacionar requisitos, pruebas y evidencias.
